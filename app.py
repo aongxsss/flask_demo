@@ -77,7 +77,7 @@ def process_image(image):
     
 def send_prompt_to_gemini(predicted_class_name):
     # api_key = os.getenv("APIKEYGEMINI")
-    api_key = "AIzaSyDx3_F4z_zkO1Bq4t-8TiAK2XG96Z0I5gg"
+    api_key = "*****"
     genai.configure(api_key=api_key)
     generation_config = {
         "temperature": 0.1,
